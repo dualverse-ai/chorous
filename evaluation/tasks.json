@@ -1,0 +1,200 @@
+[
+  {
+    "id": "hellaswag_zeroshot",
+    "task_type": "multiple_choice",
+    "shots": 0,
+    "delimiter": " ",
+    "dataset_uri": "language_understanding/hellaswag.jsonl",
+    "examples": 10042,
+    "chance": 0.25
+  },
+  {
+    "id": "jeopardy",
+    "task_type": "language_modeling",
+    "shots": 10,
+    "delimiter": "\nAnswer: ",
+    "dataset_uri": "world_knowledge/jeopardy_all.jsonl",
+    "examples": 2117,
+    "chance": 0.0
+  },
+  {
+    "id": "bigbench_qa_wikidata",
+    "task_type": "language_modeling",
+    "shots": 10,
+    "delimiter": " ",
+    "dataset_uri": "world_knowledge/bigbench_qa_wikidata.jsonl",
+    "examples": 20321,
+    "chance": 0.0
+  },
+  {
+    "id": "arc_easy",
+    "task_type": "multiple_choice",
+    "shots": 10,
+    "delimiter": "\nAnswer: ",
+    "dataset_uri": "world_knowledge/arc_easy.jsonl",
+    "examples": 2376,
+    "chance": 0.25
+  },
+  {
+    "id": "arc_challenge",
+    "task_type": "multiple_choice",
+    "shots": 10,
+    "delimiter": "\nAnswer: ",
+    "dataset_uri": "world_knowledge/arc_challenge.jsonl",
+    "examples": 1172,
+    "chance": 0.25
+  },
+  {
+    "id": "copa",
+    "task_type": "multiple_choice",
+    "shots": 0,
+    "delimiter": " ",
+    "dataset_uri": "commonsense_reasoning/copa.jsonl",
+    "examples": 100,
+    "chance": 0.5
+  },
+  {
+    "id": "commonsense_qa",
+    "task_type": "multiple_choice",
+    "shots": 10,
+    "delimiter": " ",
+    "dataset_uri": "commonsense_reasoning/commonsense_qa.jsonl",
+    "examples": 1221,
+    "chance": 0.2
+  },
+  {
+    "id": "piqa",
+    "task_type": "multiple_choice",
+    "shots": 10,
+    "delimiter": "\nAnswer: ",
+    "dataset_uri": "commonsense_reasoning/piqa.jsonl",
+    "examples": 1838,
+    "chance": 0.5
+  },
+  {
+    "id": "openbook_qa",
+    "task_type": "multiple_choice",
+    "shots": 0,
+    "delimiter": " ",
+    "dataset_uri": "commonsense_reasoning/openbook_qa.jsonl",
+    "examples": 500,
+    "chance": 0.25
+  },
+  {
+    "id": "lambada_openai",
+    "task_type": "language_modeling",
+    "shots": 0,
+    "delimiter": " ",
+    "dataset_uri": "language_understanding/lambada_openai.jsonl",
+    "examples": 5153,
+    "chance": 0.0
+  },
+  {
+    "id": "hellaswag",
+    "task_type": "multiple_choice",
+    "shots": 10,
+    "delimiter": " ",
+    "dataset_uri": "language_understanding/hellaswag.jsonl",
+    "examples": 10042,
+    "chance": 0.25
+  },
+  {
+    "id": "winograd",
+    "task_type": "schema",
+    "shots": 0,
+    "delimiter": " ",
+    "dataset_uri": "language_understanding/winograd_wsc.jsonl",
+    "examples": 273,
+    "chance": 0.5
+  },
+  {
+    "id": "winogrande",
+    "task_type": "schema",
+    "shots": 0,
+    "delimiter": " ",
+    "dataset_uri": "language_understanding/winogrande.jsonl",
+    "examples": 1267,
+    "chance": 0.5
+  },
+  {
+    "id": "bigbench_dyck_languages",
+    "task_type": "language_modeling",
+    "shots": 10,
+    "delimiter": " ",
+    "dataset_uri": "symbolic_problem_solving/bigbench_dyck_languages.jsonl",
+    "examples": 1000,
+    "chance": 0.0
+  },
+  {
+    "id": "agi_eval_lsat_ar",
+    "task_type": "multiple_choice",
+    "shots": 3,
+    "delimiter": " ",
+    "dataset_uri": "symbolic_problem_solving/agi_eval_lsat_ar.jsonl",
+    "examples": 230,
+    "chance": 0.2
+  },
+  {
+    "id": "bigbench_cs_algorithms",
+    "task_type": "language_modeling",
+    "shots": 10,
+    "delimiter": " ",
+    "dataset_uri": "symbolic_problem_solving/bigbench_cs_algorithms.jsonl",
+    "examples": 1320,
+    "chance": 0.0
+  },
+  {
+    "id": "bigbench_operators",
+    "task_type": "language_modeling",
+    "shots": 10,
+    "delimiter": " ",
+    "dataset_uri": "symbolic_problem_solving/bigbench_operators.jsonl",
+    "examples": 210,
+    "chance": 0.0
+  },
+  {
+    "id": "bigbench_repeat_copy_logic",
+    "task_type": "language_modeling",
+    "shots": 10,
+    "delimiter": " ",
+    "dataset_uri": "symbolic_problem_solving/bigbench_repeat_copy_logic.jsonl",
+    "examples": 32,
+    "chance": 0.0
+  },
+  {
+    "id": "squad",
+    "task_type": "language_modeling",
+    "shots": 10,
+    "delimiter": " ",
+    "dataset_uri": "reading_comprehension/squad.jsonl",
+    "examples": 10570,
+    "chance": 0.0
+  },
+  {
+    "id": "coqa",
+    "task_type": "language_modeling",
+    "shots": 0,
+    "delimiter": " ",
+    "dataset_uri": "reading_comprehension/coqa.jsonl",
+    "examples": 7983,
+    "chance": 0.0
+  },
+  {
+    "id": "boolq",
+    "task_type": "multiple_choice",
+    "shots": 10,
+    "delimiter": "\nAnswer: ",
+    "dataset_uri": "reading_comprehension/boolq.jsonl",
+    "examples": 3270,
+    "chance": 0.62
+  },
+  {
+    "id": "bigbench_language_identification",
+    "task_type": "multiple_choice",
+    "shots": 10,
+    "delimiter": " ",
+    "dataset_uri": "language_understanding/bigbench_language_identification.jsonl",
+    "examples": 10000,
+    "chance": 0.091
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "dataset": "fineweb",
+  "backbone": "golf",
+  "method": "factorengram",
+  "depth": 18,
+  "width": 1024,
+  "query_heads": 8,
+  "kv_heads": 4,
+  "mlp_expansion": 2,
+  "context": 1024,
+  "vocab_size": 1024,
+  "seed": 1337,
+  "steps": 10000,
+  "tokens_per_update": 524288,
+  "microbatch": 4,
+  "compile": true,
+  "val_every": 1000,
+  "evaluation_rows": 60568,
+  "weight_decay": 0.2,
+  "memory_budget": 60000000,
+  "table_lr": 0.001,
+  "control_lr": 0.01,
+  "fe_l1": 0.001,
+  "factorengram_layers": [
+    3,
+    4
+  ],
+  "deterministic_inductor": true,
+  "intermediate_rows": 2048,
+  "eval_microbatch": 4,
+  "warmdown_updates": 1200,
+  "checkpoint_every": 100
+}
