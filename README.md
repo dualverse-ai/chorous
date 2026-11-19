@@ -20,8 +20,8 @@ for the standard-size experiments; these GPUs need a PyTorch build with CUDA 12.
 or later.
 
 ```bash
-git clone https://github.com/dualverse-ai/chorous.git
-cd chorous
+git clone https://github.com/dualverse-ai/chorus.git
+cd chorus
 pip install -r requirements.txt
 ```
 
