@@ -2,6 +2,8 @@
 
 **Stephen Chung and Wenyu Du · DualverseAI**
 
+[Read the paper on arXiv](https://arxiv.org/abs/2611.23386).
+
 Chorus looks up token and n-gram embeddings once, then reuses them at the input
 and intermediate layers with layer-specific adaptation. Sharing the tables and
 training them with Ember reduces memory use while improving predictive performance.
